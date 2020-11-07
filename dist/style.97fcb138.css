@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+* h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+* p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #1c2431;
+  justify-content: space-between;
+}
+.header img {
+  height: 22%;
+  width: 20.5%;
+  margin: 20px 0 0 23px;
+}
+.header h5 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0 10px 4px 15px;
+}
+
+.header__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 12px;
+}
+
+.start__images {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1c2431;
+}
+.start__images .start__intro {
+  height: 81%;
+  width: 81%;
+  margin-top: 10px;
+  align-self: center;
+  z-index: 2;
+  position: relative;
+  bottom: -40px;
+}
+
+.start {
+  background-color: #181f2a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: -70px;
+  padding: 0 20px 0 20px;
+}
+.start__text p {
+  margin-top: 16px;
+  padding: 0 20px 0 20px;
+}
+
+.btn {
+  bottom: -20px;
+  background: linear-gradient(90deg, #65e2d9, #339ecc);
+  color: white;
+  padding: 16px 0px 16px 0px;
+  border-radius: 60px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  width: 240px;
+  border: none;
+}
+
+.start__btn {
+  position: relative;
+  top: -40px;
+}
+
+.why-us {
+  background-color: #181f2a;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */
